@@ -1,0 +1,682 @@
+@font-face {
+    font-family: noonifont;
+    src: url(/font/bold.woff2);
+}
+@font-face {
+    font-family: iconfont;
+    src: url(/font/tb-icon.ttf);
+}
+body {
+    font-family: noonifont;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav */
+nav {
+    color: grey;
+}
+.nav {
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+.nav2 {
+    gap: 10px;
+}
+.nav2 img {
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.238);
+    border-radius: 20px;
+}
+.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 50px 25px 50px;
+}
+.fixednav {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: #fff;
+    top: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+}
+.nav3 {
+    gap: 10px;
+    border-bottom: 1px solid grey;
+    width: 50%;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+.nav3 img{
+    width: 20px;
+}
+.nav4 {
+    justify-content: center;
+}
+.nav4 img{
+    width: 150px;
+}
+.nav5 {
+    justify-content: flex-end;
+    gap: 20px;
+}
+.nav5 img{
+    width: 30px;
+}
+.nav5 p {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    height: 17px;
+    width: 17px;
+    align-items: center;
+    font-size: .6em;
+}
+.num {
+    right: 40px;
+    top: -5px;
+}
+.num1 {
+    right: -5px;
+    top: -5px;
+}
+.nav6 {
+    padding: 10px 0;
+    gap: 60px;
+}
+/* nav */
+.bg-grey {
+    background-color: #e5e5e5;
+}
+.f {
+    display: flex;
+}
+.flex {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+.jc {
+    justify-content: center;
+}
+.align {
+    align-items: center;
+}
+.g60 {
+    gap: 60px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    letter-spacing: 3px;
+}
+.image {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/slide-3-home6.png);
+    height: 700px;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.content h1 {
+    font-size: 4.5em;
+    font-weight: 400;
+}
+.content p {
+    margin-bottom: 15px;
+}
+.extra {
+    margin-bottom: 50px !important;
+    margin-top: 15px !important;
+}
+.content a {
+    color: black;
+    font-weight: 600;
+}
+/* secondrow */
+.left_bg {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/shirt-2.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.mtb {
+    height: 700px;
+}
+.right_sect {
+    width: 50%;
+    height: 600px;
+}
+.right_bg {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/shirt-1.jpg);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.bold_font {
+    font-weight: 400;
+    font-size: 3em;
+}
+.content_two a {
+    color: black;
+    font-weight: 600;
+}
+.content_two p {
+    margin-bottom: 15px;
+}
+.content_two h1 {
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+.right_bg_two {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/dress-1.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.left_bg_two {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/dress-2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.trans_bg {
+    background-image: url(https://demothemesky-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/08/background-section-4-1.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.656);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+}
+.content_three {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+.content_three p{
+font-size: 1.3em;
+}
+.content_three h1{
+    font-size: 4em;
+    font-weight: 400;
+}
+.content_three a{
+    color: white;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+}
+.four-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 87%;
+    margin: auto;
+    bottom: -300px;
+    right: 80px;
+}
+.bg_one {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/07-450x572.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_one1 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/24-450x572.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_one2 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/06-450x572.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_one3 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/01-450x572.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_one:hover .bg_one0 {
+    cursor: pointer;
+    display: block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .6s ease-out;
+}
+.bg_one1:hover .bg_one01 {
+    cursor: pointer;
+    display: block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .6s ease-out;
+}
+.bg_one2:hover .bg_one02 {
+    cursor: pointer;
+    display: block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .6s ease-out;
+}
+.bg_one3:hover .bg_one03 {
+    cursor: pointer;
+    display: block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .6s ease-out;
+}
+.bg_one p {
+    background-color:  rgb(197, 40, 40);
+    padding: 4px;
+    color: white;
+    top: 10px;
+    left: 10px;
+    font-size: .8em;
+}
+.bg_one1 p {
+    background-color: black;
+    padding: 4px;
+    color: white;
+    top: 10px;
+    left: 10px;
+    font-size: .8em;
+}
+.bg_one2 p {
+    background-color: rgb(197, 40, 40);
+    padding: 4px;
+    color: white;
+    top: 10px;
+    left: 10px;
+    font-size: .8em;
+}
+.bg_one3 p {
+    background-color: black;
+    padding: 4px;
+    color: white;
+    top: 10px;
+    left: 10px;
+    font-size: .8em;
+}
+.bg_one img {
+    width: 20px;
+    bottom: 15px;
+    right: 20px;
+}
+.bg_one1 img {
+    width: 20px;
+    bottom: 15px;
+    right: 20px;
+}
+.bg_one2 img {
+    width: 20px;
+    bottom: 15px;
+    right: 20px;
+}
+.bg_one3 img {
+    width: 20px;
+    bottom: 15px;
+    right: 20px;
+}
+.bg_one0 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/31-450x572.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+.bg_one01 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/09-450x572.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+.bg_one02 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/31_2-450x572.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+.bg_one03 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/31-450x572.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+.bg_two1 {
+    bottom: 55px;
+    right: 15px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 25px;
+}
+.bg_two2 {
+    bottom: 105px;
+    right: 15px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 25px;
+}
+.bg_two3 {
+    bottom: 155px;
+    right: 15px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 25px;
+}
+.cart {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background-color: rgb(171, 30, 30);
+    font-weight: bold;
+    color: white;
+}
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.img_holder {
+    bottom: 0;
+}
+.fd {
+    display: flex;
+    flex-direction: column;
+}
+.text_holder {
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 1.05em;
+}
+.red:hover {
+    color: rgb(226, 19, 19);
+}
+.abs {
+    position: absolute;
+}
+.rel {
+    position: relative;
+}
+.g20 {
+    gap: 20px;
+}
+
+/* blog */
+.blog1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.blog {
+    width: 85%;
+    margin: auto;
+    bottom: -300px;
+    padding: 30px 0;
+}
+.two-col {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.blog2 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/blog-14-1174x862.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(.98);
+}
+.blog4 {
+    background-image: url(https://nooni-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/04/blog-6-1174x862.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(.98);
+}
+.blog2:hover {
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+.blog4:hover {
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+.blog2-2 p {
+    background-color: #FFFFFF;
+    top: 30px;
+    left: 20px;
+    padding: 5px;
+}
+.blog2-2 img {
+    background-color: #ffffff50;
+    width: 50px;
+    padding: 8px;
+}
+.blog2-3 {
+    width: 100%;
+    border-radius: 40px;
+    bottom: 20px;
+    left: 20px;
+}
+.blog3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blog3 span {
+    font-size: 1.02em;
+    color: grey;
+}
+.blog3:hover span {
+    color: rgb(171, 30, 30);
+    cursor: pointer;
+}
+.blog3 b {
+    font-size: 2em;
+    font-weight: lighter;
+}
+.blog3:hover b {
+    color: rgb(171, 30, 30);
+    cursor: pointer;
+}
+.blog3 p {
+    color: grey;
+    font-size: 1.2em;
+    line-height: 25px;
+}
+.blog h4 {
+    font-size: .9em;
+    border-bottom: 1px solid black;
+    width: 90px;
+}
+footer {
+    color: white;
+}
+.footerbg {
+    background-image: url(https://demothemesky-be87.kxcdn.com/nooni-fashion/wp-content/uploads/2023/01/footer-6-bg.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    bottom: -400px;
+}
+.footeroverlay {
+    background-color: rgba(0, 0, 0, 0.764);
+    height: 500px;
+}
+.w90 {
+    width: 90%;
+    margin: auto;
+}
+.footer1 {
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.333);
+}
+.footer2 {
+    flex-direction: column;
+    gap: 10px;
+}
+.footer2 p {
+    font-size: 2em;
+}
+.footer2 span {
+    font-size: 1.05em;
+    color: grey;
+}
+.footer3 input {
+    width: 400px;
+    padding: 15px;
+    border: none;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    border: none;
+}
+.foot4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    padding-top: 90px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.437);
+}
+.footer4 {
+    flex-direction: column;
+    gap: 20px;
+}
+.footer4 p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.footer4 span {
+    font-size: 1.06em;
+    color: grey;
+}
+.footer5 {
+    justify-content: space-between;
+    font-size: 1.1em;
+    color: grey;
+    padding-top: 20px;
+}
+.footer6 img {
+    width: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .mob_flex {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+    .right_sect {
+        width: 90%;
+        margin: auto;
+    }
+    .right_bg {
+        width: 95%;
+    }
+    .mtb {
+        height: 900px;
+    }
+    .abs {
+        top: 25%;
+        color: white;
+        bottom: 0;
+    }
+    .bg_one {
+        height: 200px;
+    }
+    .content {
+        font-size: .7em;
+    }
+    .space {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .content {
+        width: 50%;
+        font-size: .2em;
+    }
+    .image {
+        background-size: contain;
+        height: 200px;
+    }
+    .right_sect {
+        display: flex;
+        height: 100px;
+        gap: 10px;
+    }
+    .right_bg {
+        background-size: contain;
+        width: 50%;
+        height: 100px;
+    }
+    .content_two {
+        font-size: .3em;
+        height: 50px;
+    }
+    .mtb {
+        height: 100px;
+    }
+    .content_two a {
+        color: black;
+        font-weight: 600;
+    }
+    .content_two p {
+        margin-bottom: 1px;
+    }
+    .content_two h1 {
+        margin-bottom: 2px;
+    }
+    .content h1 {
+        font-size: 3.5em;
+        font-weight: 400;
+    }
+    .content p {
+        margin-bottom: 1px;
+    }
+    .extra {
+        margin-bottom: 5px !important;
+        margin-top: 1px !important;
+    }
+    .content a {
+        color: black;
+        font-weight: 600;
+    }
+    .left_bg {
+        width: 50%;
+        height: 100px;
+    }
+    
+}
